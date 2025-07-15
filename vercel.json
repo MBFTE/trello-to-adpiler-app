@@ -1,9 +1,9 @@
 {
   "version": 2,
   "builds": [
-    {
-      "src": "api/upload-to-adpiler.js",
-      "use": "@vercel/node"
-    }
+    { "src": "api/upload-to-adpiler.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/api/upload-to-adpiler", "dest": "api/upload-to-adpiler.js" }
   ]
 }
