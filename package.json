@@ -1,0 +1,9 @@
+{
+  "name": "trello-to-adpiler",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "csv-parse": "^5.3.10",
+    "node-fetch": "^3.3.2"
+  }
+}
